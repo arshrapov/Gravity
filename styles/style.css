@@ -1,0 +1,44 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.mainscreen {
+  padding: 59px 0 0 0;
+  min-height: 100vh;
+}
+
+/*=========Header==============*/
+.header__row {
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*=========Main styles=========*/
+/*=========Footer==============*/

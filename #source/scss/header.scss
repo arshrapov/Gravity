@@ -1,3 +1,7 @@
 .header {
-
+  &__row {
+    @include flexBox;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
